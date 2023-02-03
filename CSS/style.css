@@ -16,6 +16,16 @@ h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
 
+hr{
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 40px 0;
+
+    border: 0;
+    background-color: #e5e5e5;
+}
+
 /* Container */
 .container{
     width: 100%;
@@ -322,3 +332,82 @@ color: rgb(227, 172, 63);
     transform: translateY(0,-50%,0);
     transition: opacity .1s linear;
 }
+
+
+/* Statistics */
+
+.home{
+    font-size: 120px;
+    font-weight: auto;
+    width: 200px;
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+
+.statistics{
+    background-color: #8adb2d;
+    width: auto;
+}
+
+.clock {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .stat{
+    display: flex;
+  }
+
+  .stat__item{
+    flex: 1 1 0;
+    padding: 70px 25px;
+
+    border-left: 1px solid #b5eae0;
+
+    text-align: center;
+    color: #fff;
+  }
+
+  .stat__item:last-child{
+    border-right: 1px solid #b5eae0;
+  }
+
+
+  /* Services */
+
+  .services {
+    display: flex;
+  }
+
+  .services__item{
+    flex: 1 1 0;
+    padding-left: 90px;
+    padding-right: 20px;
+    position: relative;
+  }
+
+  .services__icon{
+    position: absolute;
+    top: 0;
+    left: 55px;
+    z-index: 1;
+  }
+
+  .services__title{
+    margin-bottom: 10px;
+
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;
+  }
+
+  .services__text{
+    font-size: 15px;
+    color: #999;
+  }
